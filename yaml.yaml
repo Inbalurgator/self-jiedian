@@ -107,6 +107,7 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - DIRECT
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
