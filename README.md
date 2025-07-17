@@ -1,4 +1,5 @@
 # self-jiedian
+--7/16 7/17
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIkhL6aaZ5riv5LiodC5tZS90Z2RzMTAwIOWFjei0ueiKgueCuSIsDQogICJhZGQiOiAiNDcuODMuMTYuMjkiLA0KICAicG9ydCI6ICIzMDI5OCIsDQogICJpZCI6ICI2MDIyNzJjMC0xOTE2LTQxZmUtOWI1My1mMWVmZDE0OWY5YmYiLA0KICAiYWlkIjogIjAiLA0KICAic2N5IjogImF1dG8iLA0KICAibmV0IjogIndzIiwNCiAgInR5cGUiOiAibm9uZSIsDQogICJob3N0IjogIiIsDQogICJwYXRoIjogIi8iLA0KICAidGxzIjogIiIsDQogICJzbmkiOiAiIiwNCiAgImFscG4iOiAiIiwNCiAgImZwIjogIiINCn0=
 vless://673a1021-f4a9-42a5-9a41-b632f4929da9@47.243.177.147:9443?encryption=none&security=tls&sni=usa1.xn--ghqu5fm27b67w.com&allowInsecure=1&type=ws&host=usa1.xn--ghqu5fm27b67w.com&path=%2Fpq%2Fus1#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BDInternet%E2%91%A0%E4%B8%A8%5B%E9%A6%96%E9%83%BD%E5%9B%BE%E4%B9%A6%E9%A6%86%E4%B8%93%E7%BA%BF%5D
 vless://673a1021-f4a9-42a5-9a41-b632f4929da9@47.243.177.147:9443?encryption=none&security=tls&sni=usa2.xn--ghqu5fm27b67w.com&allowInsecure=1&type=ws&host=usa2.xn--ghqu5fm27b67w.com&path=%2Fpq%2Fus2#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BDInternet%E2%91%A1%E4%B8%A8%5B%E9%A6%96%E9%83%BD%E5%9B%BE%E4%B9%A6%E9%A6%86%E4%B8%93%E7%BA%BF%5D
