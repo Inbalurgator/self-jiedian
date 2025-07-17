@@ -1,11 +1,3 @@
-#
-#-------------------------------------------------------------#
-#  创建者：https://v2rayse.com
-#  创建时间：2025-07-17 12:48:17
-#  模版：v2rayse默认模版
-#  节点数量：6
-#-------------------------------------------------------------#
-#
 port: 7890
 socks-port: 7891
 allow-lan: true
@@ -13,12 +5,118 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"HK香港丨t.me/tgds100免费节点","ws-opts":{"path":"/"},"server":"47.83.16.29","port":"30298","uuid":"602272c0-1916-41fe-9b53-f1efd149f9bf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vless","name":"🇺🇸美国Internet①丨[首都图书馆专线]","server":"47.243.177.147","port":9443,"uuid":"673a1021-f4a9-42a5-9a41-b632f4929da9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"usa1.xn--ghqu5fm27b67w.com","ws-opts":{"path":"/pq/us1","headers":{"host":"usa1.xn--ghqu5fm27b67w.com"}}}
-  - {"type":"vless","name":"🇺🇸美国Internet②丨[首都图书馆专线]","server":"47.243.177.147","port":9443,"uuid":"673a1021-f4a9-42a5-9a41-b632f4929da9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"usa2.xn--ghqu5fm27b67w.com","ws-opts":{"path":"/pq/us2","headers":{"host":"usa2.xn--ghqu5fm27b67w.com"}}}
-  - {"type":"vless","name":"🇺🇸美国IP丨[深圳創業板专线]","server":"47.243.177.147","port":9443,"uuid":"673a1021-f4a9-42a5-9a41-b632f4929da9","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"usa3.xn--ghqu5fm27b67w.com","ws-opts":{"path":"/pq/us3","headers":{"host":"usa3.xn--ghqu5fm27b67w.com"}}}
-  - {"type":"vless","name":"🇭🇰香港1","server":"5.253.16.162","port":4430,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"test.saas.cname.123153.xyz","ws-opts":{"path":"/snippets","headers":{"host":"test.saas.cname.123153.xyz"}}}
-  - {"type":"vless","name":"🇭🇰香港2","server":"5.253.16.162","port":4430,"uuid":"d342d11e-d424-4583-b36e-524ab1f0afa4","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"cfxr.eu.org","ws-opts":{"path":"/?ip=proxyip:port(443)&nat64=6to4","headers":{"host":"cfxr.eu.org"}}}
+  - {
+      "type": "vmess",
+      "name": "HK香港丨t.me/tgds100免费节点",
+      "ws-opts": { "path": "/" },
+      "server": "47.83.16.29",
+      "port": "30298",
+      "uuid": "602272c0-1916-41fe-9b53-f1efd149f9bf",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vless",
+      "name": "🇺🇸美国Internet①丨[首都图书馆专线]",
+      "server": "47.243.177.147",
+      "port": 9443,
+      "uuid": "673a1021-f4a9-42a5-9a41-b632f4929da9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "usa1.xn--ghqu5fm27b67w.com",
+      "ws-opts":
+        {
+          "path": "/pq/us1",
+          "headers": { "host": "usa1.xn--ghqu5fm27b67w.com" },
+        },
+    }
+  - {
+      "type": "vless",
+      "name": "🇺🇸美国Internet②丨[首都图书馆专线]",
+      "server": "47.243.177.147",
+      "port": 9443,
+      "uuid": "673a1021-f4a9-42a5-9a41-b632f4929da9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "usa2.xn--ghqu5fm27b67w.com",
+      "ws-opts":
+        {
+          "path": "/pq/us2",
+          "headers": { "host": "usa2.xn--ghqu5fm27b67w.com" },
+        },
+    }
+  - {
+      "type": "vless",
+      "name": "🇺🇸美国IP丨[深圳創業板专线]",
+      "server": "47.243.177.147",
+      "port": 9443,
+      "uuid": "673a1021-f4a9-42a5-9a41-b632f4929da9",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "usa3.xn--ghqu5fm27b67w.com",
+      "ws-opts":
+        {
+          "path": "/pq/us3",
+          "headers": { "host": "usa3.xn--ghqu5fm27b67w.com" },
+        },
+    }
+  - {
+      "type": "vless",
+      "name": "🇭🇰香港1",
+      "server": "5.253.16.162",
+      "port": 4430,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "test.saas.cname.123153.xyz",
+      "ws-opts":
+        {
+          "path": "/snippets",
+          "headers": { "host": "test.saas.cname.123153.xyz" },
+        },
+    }
+  - {
+      "type": "vless",
+      "name": "🇭🇰香港2",
+      "server": "5.253.16.162",
+      "port": 4430,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "cfxr.eu.org",
+      "ws-opts":
+        {
+          "path": "/?ip=proxyip:port(443)&nat64=6to4",
+          "headers": { "host": "cfxr.eu.org" },
+        },
+    }
+  - {
+      "type": "vmess",
+      "name": "US纽约丨t.me/tgds100免费节点",
+      "ws-opts":
+        {
+          "path": "/4556d6cf",
+          "headers": { "host": "wxh901-1.meiziba5566.com" },
+        },
+      "server": "wxh901-1.meiziba5566.com",
+      "port": "443",
+      "uuid": "4556d6cf-80dc-4868-9340-381c3da1ecec",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +129,7 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - US纽约丨t.me/tgds100免费节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -43,6 +142,7 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - US纽约丨t.me/tgds100免费节点
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -55,6 +155,7 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - US纽约丨t.me/tgds100免费节点
   - name: 📲 电报信息
     type: select
     proxies:
@@ -66,6 +167,7 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - US纽约丨t.me/tgds100免费节点
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -77,6 +179,7 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - US纽约丨t.me/tgds100免费节点
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -88,6 +191,7 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - US纽约丨t.me/tgds100免费节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,6 +221,7 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - US纽约丨t.me/tgds100免费节点
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
