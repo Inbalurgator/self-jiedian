@@ -117,11 +117,33 @@ proxies:
       "network": "ws",
       "tls": true,
     }
+  - {
+      "type": "vmess",
+      "name": "_中国",
+      "ws-opts": { "path": "/oooo", "headers": { "host": "v37.heduian.link" } },
+      "server": "v37.heduian.link",
+      "port": "30837",
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alterId": "2",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
+      "type": "vmess",
+      "name": "🇺🇸US_186",
+      "server": "38.12.83.217",
+      "port": 30002,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alterId": "64",
+      "cipher": "auto",
+      "network": "tcp",
+    }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🔘 自行选择
       - DIRECT
       - HK香港丨t.me/tgds100免费节点
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -130,6 +152,8 @@ proxy-groups:
       - 🇭🇰香港1
       - 🇭🇰香港2
       - US纽约丨t.me/tgds100免费节点
+      - _中国
+      - 🇺🇸US_186
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -143,12 +167,11 @@ proxy-groups:
       - 🇭🇰香港1
       - 🇭🇰香港2
       - US纽约丨t.me/tgds100免费节点
-  - name: 🌍 国外媒体
+      - _中国
+      - 🇺🇸US_186
+  - name: 🔘 自行选择
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
       - HK香港丨t.me/tgds100免费节点
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
@@ -156,11 +179,31 @@ proxy-groups:
       - 🇭🇰香港1
       - 🇭🇰香港2
       - US纽约丨t.me/tgds100免费节点
+      - _中国
+      - 🇺🇸US_186
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🔘 自行选择
+      - HK香港丨t.me/tgds100免费节点
+      - 🇺🇸美国Internet①丨[首都图书馆专线]
+      - 🇺🇸美国Internet②丨[首都图书馆专线]
+      - 🇺🇸美国IP丨[深圳創業板专线]
+      - 🇭🇰香港1
+      - 🇭🇰香港2
+      - US纽约丨t.me/tgds100免费节点
+      - _中国
+      - 🇺🇸US_186
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
@@ -168,11 +211,15 @@ proxy-groups:
       - 🇭🇰香港1
       - 🇭🇰香港2
       - US纽约丨t.me/tgds100免费节点
+      - _中国
+      - 🇺🇸US_186
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - 🎯 全球直连
       - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
@@ -180,11 +227,15 @@ proxy-groups:
       - 🇭🇰香港1
       - 🇭🇰香港2
       - US纽约丨t.me/tgds100免费节点
+      - _中国
+      - 🇺🇸US_186
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
@@ -192,6 +243,8 @@ proxy-groups:
       - 🇭🇰香港1
       - 🇭🇰香港2
       - US纽约丨t.me/tgds100免费节点
+      - _中国
+      - 🇺🇸US_186
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -215,6 +268,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
@@ -222,6 +276,8 @@ proxy-groups:
       - 🇭🇰香港1
       - 🇭🇰香港2
       - US纽约丨t.me/tgds100免费节点
+      - _中国
+      - 🇺🇸US_186
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
