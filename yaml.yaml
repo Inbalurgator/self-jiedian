@@ -138,12 +138,23 @@ proxies:
       "cipher": "auto",
       "network": "tcp",
     }
+  - {
+      "type": "vmess",
+      "name": "🇨🇳_CN_中国->🇺🇸_US_美国",
+      "ws-opts": { "path": "/oooo", "headers": { "host": "v37.heduian.link" } },
+      "server": "v37.heduian.link",
+      "port": 30837,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "alterId": 2,
+      "cipher": "auto",
+      "network": "ws",
+    }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
       - 🔘 自行选择
+      - ♻️ 自动选择
       - DIRECT
       - HK香港丨t.me/tgds100免费节点
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -154,6 +165,7 @@ proxy-groups:
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -169,6 +181,7 @@ proxy-groups:
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 🔘 自行选择
     type: select
     proxies:
@@ -181,6 +194,7 @@ proxy-groups:
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -197,6 +211,7 @@ proxy-groups:
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -213,6 +228,7 @@ proxy-groups:
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -229,6 +245,7 @@ proxy-groups:
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -245,6 +262,7 @@ proxy-groups:
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -278,6 +296,7 @@ proxy-groups:
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1993,6 +2012,8 @@ rules:
   - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,firefox.com,🎯 全球直连
+  - DOMAIN-SUFFIX,pythonhosted.com,🎯 全球直连
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
