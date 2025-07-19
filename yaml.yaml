@@ -279,6 +279,13 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
+  - name: 🎮 Steam
+    type: select
+    proxies:
+      - DIRECT
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🔘 自行选择
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -2771,7 +2778,16 @@ rules:
   - DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
   - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
   - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
-  - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
+  - DOMAIN-SUFFIX,steamcommunity.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎮 Steam
+  - DOMAIN-SUFFIX,steamcontent.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamgames.com,🎮 Steam
+  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamstat.us,🎮 Steam
+  - DOMAIN-SUFFIX,steamstatic.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamusercontent.com,🎮 Steam
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎮 Steam
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎮 Steam
   - DOMAIN-SUFFIX,tap.io,🚀 节点选择
   - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
   - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
@@ -3072,19 +3088,10 @@ rules:
   - DOMAIN-SUFFIX,sony.com,🎯 全球直连
   - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
   - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯 全球直连
   - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯 全球直连
   - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎯 全球直连
   - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 全球直连
   - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 全球直连
-  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
-  - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
   - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
   - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
