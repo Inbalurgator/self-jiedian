@@ -19,8 +19,8 @@ proxies:
   - {
       "type": "vless",
       "name": "🇺🇸美国Internet①丨[首都图书馆专线]",
-      "server": "47.243.177.147",
-      "port": 9443,
+      "server": "182.92.117.228",
+      "port": 6443,
       "uuid": "673a1021-f4a9-42a5-9a41-b632f4929da9",
       "skip-cert-verify": true,
       "udp": true,
@@ -70,35 +70,81 @@ proxies:
   - {
       "type": "vless",
       "name": "🇭🇰香港1",
-      "server": "5.253.16.162",
-      "port": 4430,
+      "server": "46.232.108.217",
+      "port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "test.saas.cname.123153.xyz",
+      "servername": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
       "ws-opts":
         {
-          "path": "/snippets",
-          "headers": { "host": "test.saas.cname.123153.xyz" },
+          "path": "/snippets?ip=47.83.16.29:9443",
+          "headers":
+            {
+              "host": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
+            },
         },
     }
   - {
       "type": "vless",
       "name": "🇭🇰香港2",
-      "server": "5.253.16.162",
-      "port": 4430,
+      "server": "8.217.168.110",
+      "port": 20000,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "cfxr.eu.org",
+      "servername": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
       "ws-opts":
         {
-          "path": "/?ip=proxyip:port(443)&nat64=6to4",
-          "headers": { "host": "cfxr.eu.org" },
+          "path": "/snippets?ip=47.83.16.29:9443",
+          "headers":
+            {
+              "host": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
+            },
+        },
+    }
+  - {
+      "type": "vless",
+      "name": "🇰🇷韩国",
+      "server": "121.160.119.150",
+      "port": 50001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
+      "ws-opts":
+        {
+          "path": "/snippets/?ip=121.160.119.150:50001",
+          "headers":
+            {
+              "host": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
+            },
+        },
+    }
+  - {
+      "type": "vless",
+      "name": "🇯🇵东瀛-小日本",
+      "server": "8.211.146.147",
+      "port": 8090,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "3c8rn7.jx6fc1cj4cz.d4s9i9x9.ffk.uleq1mm.nhys9y5gh3c.x7nkqjd.7tiha0a.n2kivga.cfns6wpb5hhb.p6zk.31phkskaz.baw52r6.w4j.0abynmtzdb6.ccvkew765.6he.0963fdi934.llxrvri.rey0fn.ld9bgtphry37oku3z7u8ilmnez8mt2s9og5vzma.nudt.edu.kg",
+      "ws-opts":
+        {
+          "path": "/snippets/?ip=8.211.146.147:8090",
+          "headers":
+            {
+              "host": "3c8rn7.jx6fc1cj4cz.d4s9i9x9.ffk.uleq1mm.nhys9y5gh3c.x7nkqjd.7tiha0a.n2kivga.cfns6wpb5hhb.p6zk.31phkskaz.baw52r6.w4j.0abynmtzdb6.ccvkew765.6he.0963fdi934.llxrvri.rey0fn.ld9bgtphry37oku3z7u8ilmnez8mt2s9og5vzma.nudt.edu.kg",
+            },
         },
     }
   - {
@@ -149,6 +195,23 @@ proxies:
       "cipher": "auto",
       "network": "ws",
     }
+  - {
+      "type": "vless",
+      "name": "公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）",
+      "server": "154.12.179.220",
+      "port": 2087,
+      "uuid": "5177172c-125a-47fa-bccd-3778b459a75e",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "subvless.trevely.us.kg",
+      "ws-opts":
+        {
+          "path": "/?ed=2560",
+          "headers": { "host": "subvless.trevely.us.kg" },
+        },
+    }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -162,10 +225,13 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - 🇰🇷韩国
+      - 🇯🇵东瀛-小日本
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -178,10 +244,13 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - 🇰🇷韩国
+      - 🇯🇵东瀛-小日本
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
   - name: 🔘 自行选择
     type: select
     proxies:
@@ -191,10 +260,13 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - 🇰🇷韩国
+      - 🇯🇵东瀛-小日本
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -208,10 +280,13 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - 🇰🇷韩国
+      - 🇯🇵东瀛-小日本
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
   - name: 📲 电报信息
     type: select
     proxies:
@@ -225,10 +300,13 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - 🇰🇷韩国
+      - 🇯🇵东瀛-小日本
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -242,10 +320,13 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - 🇰🇷韩国
+      - 🇯🇵东瀛-小日本
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -259,10 +340,13 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - 🇰🇷韩国
+      - 🇯🇵东瀛-小日本
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -300,10 +384,13 @@ proxy-groups:
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
+      - 🇰🇷韩国
+      - 🇯🇵东瀛-小日本
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2019,8 +2106,6 @@ rules:
   - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
   - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
-  - DOMAIN-SUFFIX,firefox.com,🎯 全球直连
-  - DOMAIN-SUFFIX,pythonhosted.com,🎯 全球直连
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
   - DOMAIN-KEYWORD,microsoft,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
@@ -2435,6 +2520,10 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+  # extra 主要选择
+  - DOMAIN-SUFFIX,firefox.com,🚀 节点选择
+  - DOMAIN-SUFFIX,pythonhosted.com,🚀 节点选择
+  # extra end
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
