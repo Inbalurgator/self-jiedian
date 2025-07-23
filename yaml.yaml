@@ -17,6 +17,33 @@ proxies:
       "network": "ws",
     }
   - {
+      "type": "vmess",
+      "name": "TGDS跨境专线丨频道：t.me/tgds100",
+      "ws-opts":
+        {
+          "path": "/4556d6cf",
+          "headers": { "host": "wxh901-1.meiziba5566.com" },
+        },
+      "server": "wxh901-1.meiziba5566.com",
+      "port": "443",
+      "uuid": "4556d6cf-80dc-4868-9340-381c3da1ecec",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "剩余流量：613.25GB",
+      "ws-opts": { "path": "/" },
+      "server": "47.83.16.29",
+      "port": "30298",
+      "uuid": "602272c0-1916-41fe-9b53-f1efd149f9bf",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
+  - {
       "type": "vless",
       "name": "🇺🇸美国Internet①丨[首都图书馆专线]",
       "server": "182.92.117.228",
@@ -36,8 +63,8 @@ proxies:
   - {
       "type": "vless",
       "name": "🇺🇸美国Internet②丨[首都图书馆专线]",
-      "server": "47.243.177.147",
-      "port": 9443,
+      "server": "47.243.47.167",
+      "port": 1274,
       "uuid": "673a1021-f4a9-42a5-9a41-b632f4929da9",
       "skip-cert-verify": true,
       "udp": true,
@@ -53,8 +80,8 @@ proxies:
   - {
       "type": "vless",
       "name": "🇺🇸美国IP丨[深圳創業板专线]",
-      "server": "47.243.177.147",
-      "port": 9443,
+      "server": "47.243.47.167",
+      "port": 1274,
       "uuid": "673a1021-f4a9-42a5-9a41-b632f4929da9",
       "skip-cert-verify": true,
       "udp": true,
@@ -109,21 +136,21 @@ proxies:
     }
   - {
       "type": "vless",
-      "name": "🇰🇷韩国",
-      "server": "121.160.119.150",
-      "port": 50001,
+      "name": "🇭🇰香港3",
+      "server": "47.243.43.241",
+      "port": 49529,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "skip-cert-verify": true,
       "udp": true,
       "tls": true,
       "network": "ws",
-      "servername": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
+      "servername": "j7a9n6.1qy8.af030wz.z4uwf0y1ad.p7jzjnqz.bi4lqwv25em.thla77n6av.s8ehdq1tk.k5mjfj2.6v4zdoxy0.alu2m9.lftnw48w9cs2.38ycc14b63.7ljhj2v8r1.8glyh7nu.zwft.d9llecb.8idc6rtvl.6d8.o12ugztsip9.oidc9jutxteimrp59av259b3qt.nudt.edu.kg",
       "ws-opts":
         {
-          "path": "/snippets/?ip=121.160.119.150:50001",
+          "path": "/snippets/?ip=47.243.43.241:49529",
           "headers":
             {
-              "host": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
+              "host": "j7a9n6.1qy8.af030wz.z4uwf0y1ad.p7jzjnqz.bi4lqwv25em.thla77n6av.s8ehdq1tk.k5mjfj2.6v4zdoxy0.alu2m9.lftnw48w9cs2.38ycc14b63.7ljhj2v8r1.8glyh7nu.zwft.d9llecb.8idc6rtvl.6d8.o12ugztsip9.oidc9jutxteimrp59av259b3qt.nudt.edu.kg",
             },
         },
     }
@@ -144,6 +171,26 @@ proxies:
           "headers":
             {
               "host": "3c8rn7.jx6fc1cj4cz.d4s9i9x9.ffk.uleq1mm.nhys9y5gh3c.x7nkqjd.7tiha0a.n2kivga.cfns6wpb5hhb.p6zk.31phkskaz.baw52r6.w4j.0abynmtzdb6.ccvkew765.6he.0963fdi934.llxrvri.rey0fn.ld9bgtphry37oku3z7u8ilmnez8mt2s9og5vzma.nudt.edu.kg",
+            },
+        },
+    }
+  - {
+      "type": "vless",
+      "name": "🇰🇷韩国",
+      "server": "121.160.119.150",
+      "port": 50001,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "skip-cert-verify": true,
+      "udp": true,
+      "tls": true,
+      "network": "ws",
+      "servername": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
+      "ws-opts":
+        {
+          "path": "/snippets/?ip=121.160.119.150:50001",
+          "headers":
+            {
+              "host": "j9r5p5.p8x.gqer5.63zk1me67m1.s3bgd.pac38zu78.tn5a3.gx1rvdw1.mqeskmh.fxj.e5z9qbfryh4.ft2qyks.dka.msj397cooy69.ex5o5sg17rxz.zeno.hh6w6b9sm6.g43sg2gy.vbtt.w6tpm94rixl3.uxm02wkfojdya7xmuu4gp3xjela8wrdr4fpti33lao.nudt.edu.kg",
             },
         },
     }
@@ -220,13 +267,16 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - HK香港丨t.me/tgds100免费节点
+      - TGDS跨境专线丨频道：t.me/tgds100
+      - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
-      - 🇰🇷韩国
+      - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
+      - 🇰🇷韩国
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
@@ -239,13 +289,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - HK香港丨t.me/tgds100免费节点
+      - TGDS跨境专线丨频道：t.me/tgds100
+      - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
-      - 🇰🇷韩国
+      - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
+      - 🇰🇷韩国
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
@@ -255,13 +308,16 @@ proxy-groups:
     type: select
     proxies:
       - HK香港丨t.me/tgds100免费节点
+      - TGDS跨境专线丨频道：t.me/tgds100
+      - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
-      - 🇰🇷韩国
+      - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
+      - 🇰🇷韩国
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
@@ -275,13 +331,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
+      - TGDS跨境专线丨频道：t.me/tgds100
+      - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
-      - 🇰🇷韩国
+      - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
+      - 🇰🇷韩国
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
@@ -295,13 +354,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
+      - TGDS跨境专线丨频道：t.me/tgds100
+      - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
-      - 🇰🇷韩国
+      - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
+      - 🇰🇷韩国
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
@@ -315,13 +377,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
+      - TGDS跨境专线丨频道：t.me/tgds100
+      - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
-      - 🇰🇷韩国
+      - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
+      - 🇰🇷韩国
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
@@ -335,13 +400,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
+      - TGDS跨境专线丨频道：t.me/tgds100
+      - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
-      - 🇰🇷韩国
+      - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
+      - 🇰🇷韩国
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
@@ -379,13 +447,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔘 自行选择
       - HK香港丨t.me/tgds100免费节点
+      - TGDS跨境专线丨频道：t.me/tgds100
+      - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
       - 🇺🇸美国Internet②丨[首都图书馆专线]
       - 🇺🇸美国IP丨[深圳創業板专线]
       - 🇭🇰香港1
       - 🇭🇰香港2
-      - 🇰🇷韩国
+      - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
+      - 🇰🇷韩国
       - US纽约丨t.me/tgds100免费节点
       - _中国
       - 🇺🇸US_186
