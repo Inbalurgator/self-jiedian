@@ -294,6 +294,22 @@ proxies:
       "cipher": "auto",
       "network": "ws",
     }
+  - {
+      "type": "trojan",
+      "name": "🇨🇳台湾",
+      "server": "tw.tp81.netlib.re",
+      "port": 81,
+      "password": "qmsdh_com",
+      "udp": true,
+      "skip-cert-verify": true,
+      "sni": "trojanfree.1949-10-01.top",
+      "network": "ws",
+      "ws-opts":
+        {
+          "path": "/?ed=2560",
+          "headers": { "host": "trojanfree.1949-10-01.top" },
+        },
+    }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -320,6 +336,7 @@ proxy-groups:
       - 🇨🇳中国台湾省-彰化县
       - US纽约丨t.me/tgds100免费节点_2
       - HK香港丨t.me/tgds100免费节点_2
+      - 🇨🇳台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -345,6 +362,7 @@ proxy-groups:
       - 🇨🇳中国台湾省-彰化县
       - US纽约丨t.me/tgds100免费节点_2
       - HK香港丨t.me/tgds100免费节点_2
+      - 🇨🇳台湾
   - name: 🔘 自行选择
     type: select
     proxies:
@@ -367,6 +385,7 @@ proxy-groups:
       - 🇨🇳中国台湾省-彰化县
       - US纽约丨t.me/tgds100免费节点_2
       - HK香港丨t.me/tgds100免费节点_2
+      - 🇨🇳台湾
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -393,6 +412,7 @@ proxy-groups:
       - 🇨🇳中国台湾省-彰化县
       - US纽约丨t.me/tgds100免费节点_2
       - HK香港丨t.me/tgds100免费节点_2
+      - 🇨🇳台湾
   - name: 📲 电报信息
     type: select
     proxies:
@@ -419,6 +439,7 @@ proxy-groups:
       - 🇨🇳中国台湾省-彰化县
       - US纽约丨t.me/tgds100免费节点_2
       - HK香港丨t.me/tgds100免费节点_2
+      - 🇨🇳台湾
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -445,6 +466,7 @@ proxy-groups:
       - 🇨🇳中国台湾省-彰化县
       - US纽约丨t.me/tgds100免费节点_2
       - HK香港丨t.me/tgds100免费节点_2
+      - 🇨🇳台湾
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -471,6 +493,7 @@ proxy-groups:
       - 🇨🇳中国台湾省-彰化县
       - US纽约丨t.me/tgds100免费节点_2
       - HK香港丨t.me/tgds100免费节点_2
+      - 🇨🇳台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -521,6 +544,7 @@ proxy-groups:
       - 🇨🇳中国台湾省-彰化县
       - US纽约丨t.me/tgds100免费节点_2
       - HK香港丨t.me/tgds100免费节点_2
+      - 🇨🇳台湾
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
