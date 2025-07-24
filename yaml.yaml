@@ -7,7 +7,7 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {
       "type": "vmess",
-      "name": "HK香港丨t.me/tgds100免费节点",
+      "name": "HK香港丨t.me/tgds100免费节点_1",
       "ws-opts": { "path": "/" },
       "server": "47.83.16.29",
       "port": "30298",
@@ -196,7 +196,7 @@ proxies:
     }
   - {
       "type": "vmess",
-      "name": "US纽约丨t.me/tgds100免费节点",
+      "name": "US纽约丨t.me/tgds100免费节点_1",
       "ws-opts":
         {
           "path": "/4556d6cf",
@@ -259,6 +259,41 @@ proxies:
           "headers": { "host": "subvless.trevely.us.kg" },
         },
     }
+  - {
+      "type": "vless",
+      "name": "🇨🇳中国台湾省-彰化县",
+      "server": "8.213.157.76",
+      "port": 443,
+      "uuid": "892ed740-7a04-4983-a7d7-70b9dac44f7f",
+      "skip-cert-verify": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "US纽约丨t.me/tgds100免费节点_2",
+      "ws-opts":
+        {
+          "path": "/4556d6cf",
+          "headers": { "host": "wxh901-1.meiziba5566.com" },
+        },
+      "server": "wxh901-1.meiziba5566.com",
+      "port": "443",
+      "uuid": "4556d6cf-80dc-4868-9340-381c3da1ecec",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+      "tls": true,
+    }
+  - {
+      "type": "vmess",
+      "name": "HK香港丨t.me/tgds100免费节点_2",
+      "ws-opts": { "path": "/" },
+      "server": "47.83.16.29",
+      "port": "30298",
+      "uuid": "602272c0-1916-41fe-9b53-f1efd149f9bf",
+      "alterId": "0",
+      "cipher": "auto",
+      "network": "ws",
+    }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -266,7 +301,7 @@ proxy-groups:
       - 🔘 自行选择
       - ♻️ 自动选择
       - DIRECT
-      - HK香港丨t.me/tgds100免费节点
+      - HK香港丨t.me/tgds100免费节点_1
       - TGDS跨境专线丨频道：t.me/tgds100
       - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -277,18 +312,21 @@ proxy-groups:
       - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
       - 🇰🇷韩国
-      - US纽约丨t.me/tgds100免费节点
+      - US纽约丨t.me/tgds100免费节点_1
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
+      - 🇨🇳中国台湾省-彰化县
+      - US纽约丨t.me/tgds100免费节点_2
+      - HK香港丨t.me/tgds100免费节点_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK香港丨t.me/tgds100免费节点
+      - HK香港丨t.me/tgds100免费节点_1
       - TGDS跨境专线丨频道：t.me/tgds100
       - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -299,15 +337,18 @@ proxy-groups:
       - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
       - 🇰🇷韩国
-      - US纽约丨t.me/tgds100免费节点
+      - US纽约丨t.me/tgds100免费节点_1
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
+      - 🇨🇳中国台湾省-彰化县
+      - US纽约丨t.me/tgds100免费节点_2
+      - HK香港丨t.me/tgds100免费节点_2
   - name: 🔘 自行选择
     type: select
     proxies:
-      - HK香港丨t.me/tgds100免费节点
+      - HK香港丨t.me/tgds100免费节点_1
       - TGDS跨境专线丨频道：t.me/tgds100
       - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -318,11 +359,14 @@ proxy-groups:
       - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
       - 🇰🇷韩国
-      - US纽约丨t.me/tgds100免费节点
+      - US纽约丨t.me/tgds100免费节点_1
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
+      - 🇨🇳中国台湾省-彰化县
+      - US纽约丨t.me/tgds100免费节点_2
+      - HK香港丨t.me/tgds100免费节点_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -330,7 +374,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔘 自行选择
-      - HK香港丨t.me/tgds100免费节点
+      - HK香港丨t.me/tgds100免费节点_1
       - TGDS跨境专线丨频道：t.me/tgds100
       - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -341,11 +385,14 @@ proxy-groups:
       - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
       - 🇰🇷韩国
-      - US纽约丨t.me/tgds100免费节点
+      - US纽约丨t.me/tgds100免费节点_1
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
+      - 🇨🇳中国台湾省-彰化县
+      - US纽约丨t.me/tgds100免费节点_2
+      - HK香港丨t.me/tgds100免费节点_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -353,7 +400,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔘 自行选择
-      - HK香港丨t.me/tgds100免费节点
+      - HK香港丨t.me/tgds100免费节点_1
       - TGDS跨境专线丨频道：t.me/tgds100
       - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -364,11 +411,14 @@ proxy-groups:
       - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
       - 🇰🇷韩国
-      - US纽约丨t.me/tgds100免费节点
+      - US纽约丨t.me/tgds100免费节点_1
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
+      - 🇨🇳中国台湾省-彰化县
+      - US纽约丨t.me/tgds100免费节点_2
+      - HK香港丨t.me/tgds100免费节点_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -376,7 +426,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔘 自行选择
-      - HK香港丨t.me/tgds100免费节点
+      - HK香港丨t.me/tgds100免费节点_1
       - TGDS跨境专线丨频道：t.me/tgds100
       - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -387,11 +437,14 @@ proxy-groups:
       - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
       - 🇰🇷韩国
-      - US纽约丨t.me/tgds100免费节点
+      - US纽约丨t.me/tgds100免费节点_1
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
+      - 🇨🇳中国台湾省-彰化县
+      - US纽约丨t.me/tgds100免费节点_2
+      - HK香港丨t.me/tgds100免费节点_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -399,7 +452,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔘 自行选择
-      - HK香港丨t.me/tgds100免费节点
+      - HK香港丨t.me/tgds100免费节点_1
       - TGDS跨境专线丨频道：t.me/tgds100
       - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -410,11 +463,14 @@ proxy-groups:
       - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
       - 🇰🇷韩国
-      - US纽约丨t.me/tgds100免费节点
+      - US纽约丨t.me/tgds100免费节点_1
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
+      - 🇨🇳中国台湾省-彰化县
+      - US纽约丨t.me/tgds100免费节点_2
+      - HK香港丨t.me/tgds100免费节点_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -446,7 +502,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔘 自行选择
-      - HK香港丨t.me/tgds100免费节点
+      - HK香港丨t.me/tgds100免费节点_1
       - TGDS跨境专线丨频道：t.me/tgds100
       - 剩余流量：613.25GB
       - 🇺🇸美国Internet①丨[首都图书馆专线]
@@ -457,11 +513,14 @@ proxy-groups:
       - 🇭🇰香港3
       - 🇯🇵东瀛-小日本
       - 🇰🇷韩国
-      - US纽约丨t.me/tgds100免费节点
+      - US纽约丨t.me/tgds100免费节点_1
       - _中国
       - 🇺🇸US_186
       - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 公益_香港CDN01ᵀʳᵉᵛᵉˡʸ（移动优化）
+      - 🇨🇳中国台湾省-彰化县
+      - US纽约丨t.me/tgds100免费节点_2
+      - HK香港丨t.me/tgds100免费节点_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
